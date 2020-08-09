@@ -1,0 +1,39 @@
+---
+output: html_document
+---
+<style type="text/css">
+
+
+h2 { /* Header 2 */
+    font-size: 22px;
+  color: DarkBlue;
+}
+
+</style>
+
+
+## **Welcome to data analysis app**
+
+This aplication allow to the user to do some exploratory analysis, it counts 
+with two sections which are located on the right panel ("Data section" and "Plot section"). This application allows the user to observe a data and make a graph from it.
+
+* **Data section**: this section allows to visualize the chosen data, for this purpose a table is shown, in this section the user will be able to see the content of the variables and thus be able to choose which variables they want to choose to make a graph. By default there are only three data available, they are preloaded in R, they are "iris", "mtcars" and "USArrests".
+
+* **Plot section**: in this section a graph was made, for which it is necessary for the user to enter a value for the variable "X" and one or more values for the variable "Y".
+
+On the other hand, the left panel has three inputs, 
+
+1) The first one belong to the "Data section" and allows choosing the data to be analyzed.
+
+2) The second one belong to the "Plot section" and allows to choose the variable to be considered on the x-axis.
+
+3) The thrid one belong to the "Plot section" and allows to choose the variable or variables corresponding to the y-axis of the graph to be perform.
+
+## **Tips**
+
+* It is important to mention that the "Plot section" of the panel on the left is updated according to the data that is selected.
+
+* Each entry on the left side panel has a help button (
+question mark), which when clicked displays a window where you can obtain information about it.
+
+
